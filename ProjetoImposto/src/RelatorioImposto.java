@@ -1,6 +1,6 @@
 public class RelatorioImposto {
     public static void gerarRelatorio(ImpostoDeRenda impostoDeRenda) {
-        System.out.println("### RELATÓRIO DE IMPOSTO DE RENDA ###");
+        System.out.println("RELATÓRIO DE IMPOSTO DE RENDA");
         System.out.println("* CONSOLIDADO DE RENDA:");
         System.out.printf("Imposto sobre salário: %.2f%n", impostoDeRenda.impostoSalario());
         System.out.printf("Imposto sobre serviços: %.2f%n", impostoDeRenda.impostoServico());
